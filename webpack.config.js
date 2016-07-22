@@ -19,12 +19,12 @@ module.exports = {
   },
 
   module: {
-    preloaders: preloaders(),
+    preLoaders: preLoaders(),
     loaders: loaders()
   }
 }
 
-function preloaders () {
+function preLoaders () {
   return [
     {
       test: /\.(js|jsx)$/,
