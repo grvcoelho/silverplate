@@ -1,2 +1,2 @@
 # wildfire
-:fire: Shiny front-end boilerplate
+:fire: Blazing fast front-end boilerplate
