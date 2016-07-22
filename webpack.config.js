@@ -21,7 +21,7 @@ module.exports = {
   module: {
     preloaders: preloaders(),
     loaders: loaders()
-  },
+  }
 }
 
 function preloaders () {
@@ -48,7 +48,6 @@ function loaders () {
       test: /\.(js|jsx)$/,
       exclude: /node_modules/,
       loaders: [
-        'react-hot',
         'babel-loader'
       ]
     }
