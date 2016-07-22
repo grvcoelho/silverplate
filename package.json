@@ -1,0 +1,24 @@
+{
+  "name": "wildfire",
+  "version": "0.1.0",
+  "description": "Blazing fast front-end boilerplate",
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grvcoelho/wildfire.git"
+  },
+  "keywords": [
+    "webpack",
+    "boilerplate",
+    "postcss",
+    "es2015",
+    "babel",
+    "frontend"
+  ],
+  "author": "Guilherme Rv Coelho <@grvcoelho>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grvcoelho/wildfire/issues"
+  },
+  "homepage": "https://github.com/grvcoelho/wildfire#readme"
+}
