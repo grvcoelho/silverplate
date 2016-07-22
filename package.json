@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/grvcoelho/wildfire/issues"
   },
-  "homepage": "https://github.com/grvcoelho/wildfire#readme"
+  "homepage": "https://github.com/grvcoelho/wildfire#readme",
+  "dependencies": {
+    "webpack": "^1.13.1"
+  }
 }
