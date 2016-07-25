@@ -15,15 +15,20 @@ module.exports = {
   },
 
   resolve: {
-    extensions: ['', '.js']
+    extensions: ['', '.js', '.css']
   },
 
   module: {
     preLoaders: preLoaders(),
     loaders: loaders()
+  },
+
+  postcss: function() {
+    return [
+      require('lost')
+    ]
   }
 }
-
 function preLoaders () {
   return [
     {
@@ -50,7 +55,14 @@ function loaders () {
       loaders: [
         'babel-loader'
       ]
+    },
+    {
+      test: /\.css$/,
+      loaders: [
+        'style-loader',
+        'css-loader',
+        'postcss-loader'
+      ]
     }
   ]
 }
-
