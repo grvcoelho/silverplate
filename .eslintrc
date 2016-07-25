@@ -2,6 +2,7 @@
   "extends": "airbnb",
   "rules": {
     "semi": [2, "never"],
-    "comma-dangle": [2, "never"]
+    "comma-dangle": [2, "never"],
+    "import/no-unresolved": 0
   }
 }
