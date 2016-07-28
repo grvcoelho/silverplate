@@ -3,6 +3,16 @@
 
 :fire: Blazing fast front-end boilerplate
 
+## Features
+
+- [x] [Webpack](https://github.com/webpack/webpack)
+- [x] [Hot Reload](https://github.com/gaearon/react-hot-loader)
+- [x] [Postcss](https://github.com/postcss/postcss)
+- [x] [Babel](https://github.com/babel/babel)
+- [x] [ESLint](https://github.com/eslint/eslint)
+- [x] [Travis](https://travis-ci.org)
+- [ ] [Docker](https://www.docker.com/)
+
 ## Install
 
 Clone the repository:
