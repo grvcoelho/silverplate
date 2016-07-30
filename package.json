@@ -5,7 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server -d --history-api-fallback --hot --inline --progress --colors --port 3000"
+    "start": "webpack-dev-server --history-api-fallback --hot --inline --progress --colors --port 3000"
   },
   "repository": {
     "type": "git",
