@@ -3,6 +3,12 @@
 
 :fire: Blazing fast front-end boilerplate
 
+## Why?
+
+This boilerplate is intended for people who just want to get started with their front-end project real quickly. It does not include: server configuration, production builds, code examples, third-party libraries etc.
+
+Just use it! :rocket:
+
 ## Features
 
 - [x] [Webpack](https://github.com/webpack/webpack)
@@ -11,7 +17,6 @@
 - [x] [Babel](https://github.com/babel/babel)
 - [x] [ESLint](https://github.com/eslint/eslint)
 - [x] [Travis](https://travis-ci.org)
-- [ ] [Docker](https://www.docker.com/)
 
 ## Install
 
