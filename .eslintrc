@@ -1,0 +1,15 @@
+{
+  "extends": ["airbnb"],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": [2, { "devDependencies": true }],
+    "semi": [2, "never"],
+    "comma-dangle": [2, "never"],
+    "space-before-function-paren": [2, "always"],
+    "react/jsx-filename-extension": 0,
+    "react/prop-types": 0
+  }
+}
+

@@ -2,9 +2,10 @@ import React from 'react'
 import { render } from 'react-dom'
 import './index.html'
 
-const HelloWorld = () => <h1>Hello World</h1>
+const HelloWorld = props => <h1>Hello World - {props.name}</h1>
 
 render(
-  <HelloWorld />,
+  <HelloWorld name="GUilherme" />,
   document.getElementById('app')
 )
+
