@@ -1,5 +1,10 @@
-import './styles'
+import React from 'react'
+import { render } from 'react-dom'
+import './index.html'
 
-const x = 123
+const HelloWorld = () => <h1>Hello World</h1>
 
-export default x
+render(
+  <HelloWorld />,
+  document.getElementById('app')
+)
