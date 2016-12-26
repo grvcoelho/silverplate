@@ -1,5 +1,5 @@
 const webpack = require('webpack')
-const { resolve  } = require('path')
+const { resolve } = require('path')
 
 const context = resolve(__dirname, 'app')
 
@@ -35,16 +35,34 @@ const rules = [
   {
     test: /\.css$/,
     use: [
-      'style-loader',
-      'css-loader?modules',
-      'postcss-loader'
+      {
+        loader: 'style-loader'
+      },
+      {
+        loader: 'css-loader',
+        options: {
+          importLoaders: 1,
+          modules: true,
+          localIdentName: '[local]--[hash:base64:5]'
+        }
+      },
+      {
+        loader: 'postcss-loader'
+      }
     ]
   }
 ]
 
 const plugins = [
   new webpack.HotModuleReplacementPlugin(),
-  new webpack.NamedModulesPlugin()
+  new webpack.NamedModulesPlugin(),
+  new webpack.LoaderOptionsPlugin({
+    options: {
+      postcss: [
+        require('lost'),
+      ]
+    }
+  })
 ]
 
 module.exports = {
