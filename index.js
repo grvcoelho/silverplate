@@ -1,0 +1,49 @@
+const { resolve } = require('path')
+const { prompt } = require('inquirer')
+const gulp = require('gulp')
+const ejs = require('gulp-ejs')
+
+init()
+
+function init () {
+  const questions = [
+    {
+      name: 'type',
+      message: 'What are you building?',
+      type: 'list',
+      choices: [{
+        name: 'React App',
+        value: 'react-app'
+      }]
+    },
+    {
+      name: 'author',
+      message: `What's your name?`
+    },
+    {
+      name: 'username',
+      message: `What's your github username?`
+    },
+    {
+      name: 'name',
+      message: 'Choose a nice pop culture name:',
+      default: 'death-star'
+    },
+    {
+      name: 'description',
+      message: 'Write a small description (the more buzzwords the better):'
+    }
+  ]
+
+  prompt(questions)
+    .then((answers) => {
+      const { type, name } = answers
+      const src = resolve(__dirname, `./templates/${type}/*`)
+      const dest = resolve(process.cwd(), name)
+
+      gulp
+        .src(src, { dot: true })
+        .pipe(ejs(answers))
+        .pipe(gulp.dest(dest))
+    })
+}
