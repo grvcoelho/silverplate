@@ -1,4 +1,4 @@
-!#/usr/bin/env node
+#!/usr/bin/env node
 
 const { resolve } = require('path')
 const { prompt } = require('inquirer')
