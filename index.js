@@ -1,3 +1,5 @@
+!#/usr/bin/env node
+
 const { resolve } = require('path')
 const { prompt } = require('inquirer')
 const gulp = require('gulp')
