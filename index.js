@@ -40,7 +40,7 @@ function init () {
   prompt(questions)
     .then((answers) => {
       const { type, name } = answers
-      const src = resolve(__dirname, `./templates/${type}/*`)
+      const src = resolve(__dirname, `./templates/${type}/**/*`)
       const dest = resolve(process.cwd(), name)
 
       gulp
