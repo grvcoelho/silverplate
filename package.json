@@ -1,14 +1,14 @@
 {
-  "name": "wildfire",
-  "version": "1.1.0",
+  "name": "starhopper",
+  "version": "2.0.0",
   "description": "A Webpack and React architecture generator",
   "main": "index.js",
   "bin": {
-    "wildfire": "./index.js"
+    "starhopper": "./index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grvcoelho/wildfire.git"
+    "url": "git+https://github.com/grvcoelho/starhopper.git"
   },
   "keywords": [
     "react",
@@ -19,9 +19,9 @@
   "author": "Guilherme Rv Coelho <@grvcoelho>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/grvcoelho/wildfire/issues"
+    "url": "https://github.com/grvcoelho/starhopper/issues"
   },
-  "homepage": "https://github.com/grvcoelho/wildfire#readme",
+  "homepage": "https://github.com/grvcoelho/starhopper#readme",
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-ejs": "^2.3.0",
