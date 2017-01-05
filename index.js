@@ -20,11 +20,13 @@ function init () {
     },
     {
       name: 'author',
-      message: `What's your name?`
+      message: `What's your name?`,
+      default: 'Guilherme Rv Coelho'
     },
     {
       name: 'username',
-      message: `What's your github username?`
+      message: `What's your github username?`,
+      default: 'grvcoelho'
     },
     {
       name: 'name',
@@ -40,7 +42,7 @@ function init () {
   prompt(questions)
     .then((answers) => {
       const { type, name } = answers
-      const src = resolve(__dirname, `./templates/${type}/*`)
+      const src = resolve(__dirname, `./templates/${type}/**/*`)
       const dest = resolve(process.cwd(), name)
 
       gulp
