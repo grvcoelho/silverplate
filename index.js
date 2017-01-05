@@ -20,11 +20,13 @@ function init () {
     },
     {
       name: 'author',
-      message: `What's your name?`
+      message: `What's your name?`,
+      default: 'Guilherme Rv Coelho'
     },
     {
       name: 'username',
-      message: `What's your github username?`
+      message: `What's your github username?`,
+      default: 'grvcoelho'
     },
     {
       name: 'name',
