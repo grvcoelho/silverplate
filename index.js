@@ -14,8 +14,8 @@ function init () {
       message: 'What are you building?',
       type: 'list',
       choices: [{
-        name: 'React App',
-        value: 'react-app'
+        name: 'React and Redux App',
+        value: 'react-redux'
       }]
     },
     {

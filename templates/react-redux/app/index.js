@@ -1,12 +1,14 @@
 import React from 'react'
 import { render } from 'react-dom'
 import './styles/index.css'
+import Root from './containers/Root'
+import configureStore from './store'
 import './index.html'
 
-const HelloWorld = props => <h1>Hello {props.name}!</h1>
+const store = configureStore()
 
 render(
-  <HelloWorld name="World" />,
+  <Root store={store} />,
   document.getElementById('app')
 )
 
