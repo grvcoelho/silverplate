@@ -1,6 +1,6 @@
 {
   "name": "starhopper",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "A Webpack and React architecture generator",
   "main": "index.js",
   "bin": {
