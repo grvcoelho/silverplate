@@ -1,6 +1,6 @@
 {
   "name": "@grvcoelho/silverplate",
-  "version": "2.2.2",
+  "version": "3.0.0",
   "description": "A Webpack and React architecture generator",
   "main": "index.js",
   "bin": {

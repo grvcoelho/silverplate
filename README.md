@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/grvcoelho/silverplate.svg?branch=master)](https://travis-ci.org/grvcoelho/silverplate)
 
-A Webpack and React architecture generator
+:globe_with_meridians: Front-end boilerplate with Webpack, Hot Reload, Tree-Shaking and React
 
 ## Install
 
@@ -22,5 +22,5 @@ A Webpack and React architecture generator
 
 ## LICENSE
 
-[MIT](https://github.com/grvcoelho/silverplate/blob/master/LICENSE) (c) 2017 Guilherme Rv Coelho
+[MIT](https://github.com/grvcoelho/silverplate/blob/master/LICENSE) (c) 2018 Guilherme Coelho
 
