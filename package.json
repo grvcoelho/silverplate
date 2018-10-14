@@ -1,14 +1,14 @@
 {
-  "name": "starhopper",
+  "name": "@grvcoelho/silverplate",
   "version": "2.2.2",
   "description": "A Webpack and React architecture generator",
   "main": "index.js",
   "bin": {
-    "starhopper": "./index.js"
+    "silverplate": "./index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grvcoelho/starhopper.git"
+    "url": "git+https://github.com/grvcoelho/silverplate.git"
   },
   "keywords": [
     "react",
@@ -16,12 +16,12 @@
     "boilerplate",
     "generator"
   ],
-  "author": "Guilherme Rv Coelho <@grvcoelho>",
+  "author": "Guilherme Coelho <@grvcoelho>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/grvcoelho/starhopper/issues"
+    "url": "https://github.com/grvcoelho/silverplate/issues"
   },
-  "homepage": "https://github.com/grvcoelho/starhopper#readme",
+  "homepage": "https://github.com/grvcoelho/silverplate#readme",
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-ejs": "^2.3.0",

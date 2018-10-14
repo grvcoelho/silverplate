@@ -21,7 +21,7 @@ function init () {
     {
       name: 'author',
       message: `What's your name?`,
-      default: 'Guilherme Rv Coelho'
+      default: 'Guilherme Coelho'
     },
     {
       name: 'username',
@@ -30,12 +30,12 @@ function init () {
     },
     {
       name: 'name',
-      message: 'Choose a nice pop culture name:',
-      default: 'death-star'
+      message: `What's the name of your project`,
+      default: 'netflix'
     },
     {
       name: 'description',
-      message: 'Write a small description (the more buzzwords the better):'
+      message: 'Write a small description about your project:'
     }
   ]
 
