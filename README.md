@@ -1,15 +1,15 @@
-# starhopper
+# silverplate
 
-[![Build Status](https://travis-ci.org/grvcoelho/starhopper.svg?branch=master)](https://travis-ci.org/grvcoelho/starhopper)
+[![Build Status](https://travis-ci.org/grvcoelho/silverplate.svg?branch=master)](https://travis-ci.org/grvcoelho/silverplate)
 
-A Webpack and React architecture generator
+:globe_with_meridians: Front-end boilerplate with Webpack, Hot Reload, Tree-Shaking and React
 
 ## Install
 
 1. Install it via npm:
 
   ```
-  $ npm install --global starhopper
+  $ npm install --global @grvcoelho/silverplate
   ```
 
 ## Usage
@@ -17,10 +17,10 @@ A Webpack and React architecture generator
 2. Run the command and answer the questions:
 
   ```
-  $ starhopper
+  $ silverplate
   ```
 
 ## LICENSE
 
-[MIT](https://github.com/grvcoelho/starhopper/blob/master/LICENSE) (c) 2017 Guilherme Rv Coelho
+[MIT](https://github.com/grvcoelho/silverplate/blob/master/LICENSE) (c) 2018 Guilherme Coelho
 
